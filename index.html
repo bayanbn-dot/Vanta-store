@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanta</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link icons -->
+     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+       <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+     <a href="#" class="logo" ><i><span class="material-symbols-outlined">apparel</span></i>Vanta</a>
+
+     <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new">New Arrival</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+     </ul>
+     <!-- icons -->
+      <div class="header-icons">
+        <i><span class="material-symbols-outlined" id="menu-icon">menu</span></i>
+        <i><span class="material-symbols-outlined" id="search-icon">search</span></i>
+        <i id="cart-icon"><span class="material-symbols-outlined">shopping_cart</span></i>
+        <i id="user-icon"><span class="material-symbols-outlined">person</span></i>
+
+      </div>   
+      
+      <!-- search box  -->
+        <div class="search-box">
+          <input type="search" placeholder="Search products..." id="search-input" name="" >
+        </div>
+
+        <!-- cart box -->
+        <div class="cart">
+          <!-- box 1 -->
+          <div class="box">
+            <img src="img/new1.jpg" alt="">
+            <div class="text">
+              <h3>T-Shirt VÉR</h3>
+              <span>$50.05</span>
+              <span>x1</span>
+            </div>
+            <i><span class="material-symbols-outlined">delete</span></i>
+          </div>
+
+          <!-- box 2 -->
+          <div class="box">
+            <img src="img/new2.jpg" alt="">
+            <div class="text">
+              <h3>T-Shirt VÉR</h3>
+              <span>$50.05</span>
+              <span>x1</span>
+            </div>
+            <i><span class="material-symbols-outlined">delete</span></i>
+          </div>
+          <h2>Total:$100.10</h2>
+          <a href="#" class="btn">Checkout</a>
+        
+
+        </div>
+
+
+        <!-- user -->
+         <div class="user">
+          <h2>Login Now </h2>
+          <input type="email" placeholder="Enter your email..." id="email" name="">
+          <input type="password" placeholder="Enter your password..." id="password" name="">
+          <input type="submit" value="Login" class="login-btn">
+          <p>Forget Password <a href="#">Reset Now</a></p>
+          <p>Dont't have acoount <a href="#">Create one </a></p>
+         </div>
+    
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <span>New Collection</span>
+        <h1>New Arrival of <br>Modern Products</h1>
+        <p>Discover meticulously curated pieces that blend comfort with modern design. Elevate your everyday style.</p>
+        <a href="#new" class="btn">Shop Now</a>
+      </div>
+      <div class="home-img">
+        <img src="img/Photoroom.png" alt=""> 
+      </div>
+    </section>
+
+
+    <!-- New arrival -->
+     <section class="new" id="new">
+      <div class="heading">
+        <h1>New <span>arrival</span></h1>
+      </div>
+      <div class="swiper new-arrival">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="img/new1.jpg" alt="">
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="img/new2.jpg" alt="">
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="img/new3.jpg" alt="">
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="img/new4.jpg" alt="">
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="img/new5.jpg" alt="">
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="img/new6.jpg" alt="">
+            <div class="content">
+              <a href="#" class="btn">Buy Now</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+     </section>
+     <!-- product -->
+      <section class="products" id="products">
+        <div class="heading">
+          <h1>Our <span>Products</span></h1>
+      </div>
+      <div class="product-container">
+        <div class="box">
+          <img src="img/1.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined" id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/6.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined" id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/3.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined"id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/4.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined"id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/5.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined"id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/2.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined"id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/7.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined"id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/8.jpg" alt="">
+          <div class="content">
+            <h2>Jacket xx</h2>
+
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+
+            </div>
+            <span>$50.05</span>
+            <span class="material-symbols-outlined"id="shopping_cart">shopping_cart</span>
+          </div>
+        </div>
+
+
+      </div>
+
+      </section>
+
+      <section class="reviews "id="reviews">
+        <div class="heading">
+          <h1>Customer <span>Reviews</span></h1>
+        </div>
+        <div class="reviews-container">
+          <div class="box">
+            <img src="img/user1.jpg" alt="">
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+            <h3>John Doe</h3>
+          </div>
+
+          <div class="box">
+            <img src="img/user2.jpg" alt="">
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+            <h3>John Doe</h3>
+          </div>
+
+          <div class="box">
+            <img src="img/user3.jpg" alt="">
+            <div class="stars">
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star</span>
+              <span class="material-symbols-outlined">star_half</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+            <h3>John Doe</h3>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- foonter -->
+       <section class="footer">
+        <div class="foonter-box">
+          <h2>Vanta</h2>
+          <p>Vanta is your destination for modern fashion and stylish outfits.<br> 
+            We bring you the latest trends with high quality and comfortable <br>
+            designs to make you feel confident every day.</p>  
+          
+          <div class="social">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+              <path d="M32,11h5c0.552,0,1-0.448,1-1V3.263c0-0.524-0.403-0.96-0.925-0.997C35.484,2.153,32.376,2,30.141,2C24,2,20,5.68,20,12.368 V19h-7c-0.552,0-1,0.448-1,1v7c0,0.552,0.448,1,1,1h7v19c0,0.552,0.448,1,1,1h7c0.552,0,1-0.448,1-1V28h7.222 c0.51,0,0.938-0.383,0.994-0.89l0.778-7C38.06,19.518,37.596,19,37,19h-8v-5C29,12.343,30.343,11,32,11z"></path></svg></a>
+              <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                <path d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z"></path></svg></a>
+              <a href="#"> <svg fill="#000000" viewBox="0 0 32 32" id="Camada_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M22.3,8.4c-0.8,0-1.4,0.6-1.4,1.4c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4C23.7,9,23.1,8.4,22.3,8.4z"></path> <path d="M16,10.2c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9s5.9-2.7,5.9-5.9S19.3,10.2,16,10.2z M16,19.9c-2.1,0-3.8-1.7-3.8-3.8 c0-2.1,1.7-3.8,3.8-3.8c2.1,0,3.8,1.7,3.8,3.8C19.8,18.2,18.1,19.9,16,19.9z"></path> <path d="M20.8,4h-9.5C7.2,4,4,7.2,4,11.2v9.5c0,4,3.2,7.2,7.2,7.2h9.5c4,0,7.2-3.2,7.2-7.2v-9.5C28,7.2,24.8,4,20.8,4z M25.7,20.8 c0,2.7-2.2,5-5,5h-9.5c-2.7,0-5-2.2-5-5v-9.5c0-2.7,2.2-5,5-5h9.5c2.7,0,5,2.2,5,5V20.8z"></path> </g> </g></svg></a>
+              <a href="#"><svg fill="#000000" width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>tiktok</title> <path d="M16.656 1.029c1.637-0.025 3.262-0.012 4.886-0.025 0.054 2.031 0.878 3.859 2.189 5.213l-0.002-0.002c1.411 1.271 3.247 2.095 5.271 2.235l0.028 0.002v5.036c-1.912-0.048-3.71-0.489-5.331-1.247l0.082 0.034c-0.784-0.377-1.447-0.764-2.077-1.196l0.052 0.034c-0.012 3.649 0.012 7.298-0.025 10.934-0.103 1.853-0.719 3.543-1.707 4.954l0.020-0.031c-1.652 2.366-4.328 3.919-7.371 4.011l-0.014 0c-0.123 0.006-0.268 0.009-0.414 0.009-1.73 0-3.347-0.482-4.725-1.319l0.040 0.023c-2.508-1.509-4.238-4.091-4.558-7.094l-0.004-0.041c-0.025-0.625-0.037-1.25-0.012-1.862 0.49-4.779 4.494-8.476 9.361-8.476 0.547 0 1.083 0.047 1.604 0.136l-0.056-0.008c0.025 1.849-0.050 3.699-0.050 5.548-0.423-0.153-0.911-0.242-1.42-0.242-1.868 0-3.457 1.194-4.045 2.861l-0.009 0.030c-0.133 0.427-0.21 0.918-0.21 1.426 0 0.206 0.013 0.41 0.037 0.61l-0.002-0.024c0.332 2.046 2.086 3.59 4.201 3.59 0.061 0 0.121-0.001 0.181-0.004l-0.009 0c1.463-0.044 2.733-0.831 3.451-1.994l0.010-0.018c0.267-0.372 0.45-0.822 0.511-1.311l0.001-0.014c0.125-2.237 0.075-4.461 0.087-6.698 0.012-5.036-0.012-10.060 0.025-15.083z"></path> </g></svg> </a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Support</h3>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Helo & Support</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">FAQ</a></li>
+        </div>
+
+        <div class="footer-box">
+          <h3>Payment Meethod</h3>
+          <div class="payment">
+          <li><svg width="64px" height="64px" viewBox="0 0 48.00 48.00" id="b" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000" stroke-width="0.00048000000000000007"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="2.112"><defs><style>.c{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><rect class="c" x="4.5" y="11.1653" width="39" height="10.2373"></rect><rect class="c" x="4.5" y="26.5975" width="39" height="10.2373"></rect></g><g id="SVGRepo_iconCarrier"><defs><style>.c{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><rect class="c" x="4.5" y="11.1653" width="39" height="10.2373"></rect><rect class="c" x="4.5" y="26.5975" width="39" height="10.2373"></rect></g></svg></li>
+          <li><svg fill="#000000" height="200px" width="200px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M12,26H7c-0.8,0-1.6-0.4-2.1-1c-0.5-0.6-0.7-1.4-0.5-2.2L8.7,4l0,0c0.3-1.2,1.3-2,2.6-2h8.6c2.3,0,4.4,1,5.9,2.8 c1.4,1.8,2,4.1,1.5,6.4c-0.8,4-4.4,6.8-8.5,6.8h-3.2c-0.5,0-1,0.4-1.1,0.9L13,25.2C12.9,25.7,12.5,26,12,26z"></path> </g> <g> <path d="M12,26H7c-0.8,0-1.6-0.4-2.1-1c-0.5-0.6-0.7-1.4-0.5-2.2L8.7,4l0,0c0.3-1.2,1.3-2,2.6-2h8.6c2.3,0,4.4,1,5.9,2.8 c1.4,1.8,2,4.1,1.5,6.4c-0.8,4-4.4,6.8-8.5,6.8h-3.2c-0.5,0-1,0.4-1.1,0.9L13,25.2C12.9,25.7,12.5,26,12,26z"></path> </g> <path d="M29.3,11.3c0,0.1,0,0.2,0,0.3c-1,4.9-5.4,8.4-10.4,8.4h-2.5l-1.4,5.7C14.6,27.1,13.4,28,12,28h-2c0.1,0.4,0.2,0.7,0.5,1 c0.5,0.6,1.2,0.9,2,0.9H17c0.5,0,0.9-0.3,1-0.7l1.4-5.5c0.1-0.4,0.5-0.6,0.9-0.6h2.9c3.7,0,7-2.5,7.7-6C31.3,15,30.7,12.8,29.3,11.3 z"></path> </g></svg></li>
+          <li><svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>visa</title> <path d="M15.854 11.329l-2.003 9.367h-2.424l2.006-9.367zM26.051 17.377l1.275-3.518 0.735 3.518zM28.754 20.696h2.242l-1.956-9.367h-2.069c-0.003-0-0.007-0-0.010-0-0.459 0-0.853 0.281-1.019 0.68l-0.003 0.007-3.635 8.68h2.544l0.506-1.4h3.109zM22.429 17.638c0.010-2.473-3.419-2.609-3.395-3.714 0.008-0.336 0.327-0.694 1.027-0.785 0.13-0.013 0.28-0.021 0.432-0.021 0.711 0 1.385 0.162 1.985 0.452l-0.027-0.012 0.425-1.987c-0.673-0.261-1.452-0.413-2.266-0.416h-0.001c-2.396 0-4.081 1.275-4.096 3.098-0.015 1.348 1.203 2.099 2.122 2.549 0.945 0.459 1.262 0.754 1.257 1.163-0.006 0.63-0.752 0.906-1.45 0.917-0.032 0.001-0.071 0.001-0.109 0.001-0.871 0-1.691-0.219-2.407-0.606l0.027 0.013-0.439 2.052c0.786 0.315 1.697 0.497 2.651 0.497 0.015 0 0.030-0 0.045-0h-0.002c2.546 0 4.211-1.257 4.22-3.204zM12.391 11.329l-3.926 9.367h-2.562l-1.932-7.477c-0.037-0.364-0.26-0.668-0.57-0.82l-0.006-0.003c-0.688-0.338-1.488-0.613-2.325-0.786l-0.066-0.011 0.058-0.271h4.124c0 0 0.001 0 0.001 0 0.562 0 1.028 0.411 1.115 0.948l0.001 0.006 1.021 5.421 2.522-6.376z"></path> </g></svg>
+          </li>
+          <li><svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>mastercard</title> <path d="M16 8.73c-0.12 0.094-0.236 0.187-0.349 0.288-1.955 1.705-3.184 4.2-3.184 6.982s1.228 5.277 3.172 6.973l0.011 0.009c0.112 0.1 0.231 0.197 0.349 0.29 0.12-0.092 0.236-0.19 0.349-0.29 1.955-1.705 3.183-4.2 3.183-6.982s-1.228-5.277-3.172-6.973l-0.011-0.009c-0.112-0.1-0.23-0.195-0.349-0.288zM21.721 6.745c-0.005 0-0.011-0-0.018-0-1.903 0-3.67 0.577-5.138 1.566l0.033-0.021c0.075 0.059 0.143 0.121 0.205 0.186l0.001 0.001c2.116 1.836 3.446 4.528 3.446 7.531 0 2.996-1.323 5.682-3.417 7.507l-0.012 0.010c-0.072 0.061-0.15 0.122-0.226 0.182 1.441 0.97 3.216 1.549 5.125 1.549 5.112 0 9.256-4.144 9.256-9.256s-4.143-9.255-9.255-9.256h-0zM15.18 23.526c0.072 0.061 0.15 0.122 0.226 0.182-1.44 0.969-3.214 1.547-5.123 1.547-5.112 0-9.255-4.144-9.255-9.255s4.144-9.255 9.255-9.255c1.907 0 3.68 0.577 5.153 1.566l-0.033-0.021c-0.075 0.059-0.143 0.121-0.205 0.186l-0.001 0.001c-2.116 1.836-3.446 4.528-3.446 7.531 0 2.996 1.323 5.682 3.417 7.507l0.012 0.010z"></path> </g></svg></li>
+          </div>
+
+        </div>
+       
+       
+       
+        </section>
+
+        <!-- copyrigth -->
+        <div class="copyright">
+          <p>© 2026 Vanta. All rights reserved.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- link to js -->
+     <script src="main.js"></script>
+    
+</body>
+</html>
